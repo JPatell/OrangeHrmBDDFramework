@@ -46,25 +46,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.examples({
-  "comments": [
-    {
-      "line": 12,
-      "value": "#\tExamples:"
-    },
-    {
-      "line": 13,
-      "value": "#\t| username | password   |"
-    },
-    {
-      "line": 14,
-      "value": "#\t| Admin    | admin123   |"
-    },
-    {
-      "line": 15,
-      "value": "#\t| Admin    | admin123   |"
-    }
-  ],
-  "line": 17,
+  "line": 13,
   "name": "",
   "description": "",
   "id": "test-tagged-hooks;orange-hrm-login-test-scenario;",
@@ -77,7 +59,7 @@ formatter.examples({
         "lastname",
         "email"
       ],
-      "line": 18,
+      "line": 14,
       "id": "test-tagged-hooks;orange-hrm-login-test-scenario;;1"
     },
     {
@@ -88,7 +70,7 @@ formatter.examples({
         "Peter",
         "tp@abc.com"
       ],
-      "line": 19,
+      "line": 15,
       "id": "test-tagged-hooks;orange-hrm-login-test-scenario;;2"
     },
     {
@@ -99,22 +81,22 @@ formatter.examples({
         "Dsouza",
         "dd@abs.com"
       ],
-      "line": 20,
+      "line": 16,
       "id": "test-tagged-hooks;orange-hrm-login-test-scenario;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4672929200,
+  "duration": 4623804400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 49600,
+  "duration": 48100,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 19,
+  "line": 15,
   "name": "Orange HRM Login Test Scenario",
   "description": "",
   "id": "test-tagged-hooks;orange-hrm-login-test-scenario;;2",
@@ -160,14 +142,14 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 812497800,
+  "duration": 950794200,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.title_of_login_page_is_OrangeHRM()"
 });
 formatter.result({
-  "duration": 3548300,
+  "duration": 5624300,
   "status": "passed"
 });
 formatter.match({
@@ -184,41 +166,41 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 42688900,
+  "duration": 43626400,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 1374122100,
+  "duration": 1396323800,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 3305500,
+  "duration": 2103900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 42400,
+  "duration": 23400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 632116900,
+  "duration": 511872700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3764768700,
+  "duration": 4243093900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 28700,
+  "duration": 49700,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 20,
+  "line": 16,
   "name": "Orange HRM Login Test Scenario",
   "description": "",
   "id": "test-tagged-hooks;orange-hrm-login-test-scenario;;3",
@@ -264,14 +246,14 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 739576000,
+  "duration": 752647400,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.title_of_login_page_is_OrangeHRM()"
 });
 formatter.result({
-  "duration": 2412900,
+  "duration": 2104300,
   "status": "passed"
 });
 formatter.match({
@@ -288,33 +270,33 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 37725900,
+  "duration": 34274800,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 1383354000,
+  "duration": 1387491500,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 3209300,
+  "duration": 3647100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 18300,
+  "duration": 19200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 781637000,
+  "duration": 777123100,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 23,
+  "line": 19,
   "name": "This is Second test",
   "description": "",
   "id": "test-tagged-hooks;this-is-second-test",
@@ -322,81 +304,53 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 22,
+      "line": 18,
       "name": "@Second"
     }
   ]
 });
 formatter.step({
-  "line": 25,
+  "line": 21,
   "name": "user is already on Login Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 26,
+  "line": 22,
   "name": "title of login page is OrangeHRM",
   "keyword": "When "
 });
 formatter.step({
-  "line": 27,
+  "line": 23,
   "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 28,
-      "value": "#| username | password   |"
-    },
-    {
-      "line": 29,
-      "value": "#\t| Admin    | admin123   |"
-    },
-    {
-      "line": 30,
-      "value": "#\t| Admin    | admin123   |"
-    }
-  ],
-  "line": 31,
+  "line": 25,
   "name": "user clicks on login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 32,
+  "line": 26,
   "name": "user is on home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 33,
+  "line": 27,
   "name": "user moves to candidates page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 34,
+  "line": 28,
   "name": "user moves to new candidate page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 35,
+  "line": 29,
   "name": "user enters contact details \"\u003cfirstname\u003e\" and \"\u003clastname\u003e\" and \"\u003cemail\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "comments": [
-    {
-      "line": 36,
-      "value": "#\t | firstname | lastname | email       |"
-    },
-    {
-      "line": 37,
-      "value": "#\t | Tom \t  | Peter       | tp@abc.com  |"
-    },
-    {
-      "line": 38,
-      "value": "#\t | David \t  | Dsouza  | dd@abs.com  |"
-    }
-  ],
-  "line": 41,
+  "line": 32,
   "name": "",
   "description": "",
   "id": "test-tagged-hooks;this-is-second-test;",
@@ -409,7 +363,7 @@ formatter.examples({
         "lastname",
         "email"
       ],
-      "line": 42,
+      "line": 33,
       "id": "test-tagged-hooks;this-is-second-test;;1"
     },
     {
@@ -420,7 +374,7 @@ formatter.examples({
         "Peter",
         "tp@abc.com"
       ],
-      "line": 43,
+      "line": 34,
       "id": "test-tagged-hooks;this-is-second-test;;2"
     },
     {
@@ -431,22 +385,22 @@ formatter.examples({
         "Dsouza",
         "dd@abs.com"
       ],
-      "line": 44,
+      "line": 35,
       "id": "test-tagged-hooks;this-is-second-test;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3763079200,
+  "duration": 3736695600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 38800,
+  "duration": 45400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 43,
+  "line": 34,
   "name": "This is Second test",
   "description": "",
   "id": "test-tagged-hooks;this-is-second-test;;2",
@@ -454,23 +408,23 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 22,
+      "line": 18,
       "name": "@Second"
     }
   ]
 });
 formatter.step({
-  "line": 25,
+  "line": 21,
   "name": "user is already on Login Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 26,
+  "line": 22,
   "name": "title of login page is OrangeHRM",
   "keyword": "When "
 });
 formatter.step({
-  "line": 27,
+  "line": 23,
   "name": "user enters \"Admin\" and \"admin123\"",
   "matchedColumns": [
     0,
@@ -479,41 +433,27 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 28,
-      "value": "#| username | password   |"
-    },
-    {
-      "line": 29,
-      "value": "#\t| Admin    | admin123   |"
-    },
-    {
-      "line": 30,
-      "value": "#\t| Admin    | admin123   |"
-    }
-  ],
-  "line": 31,
+  "line": 25,
   "name": "user clicks on login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 32,
+  "line": 26,
   "name": "user is on home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 33,
+  "line": 27,
   "name": "user moves to candidates page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 34,
+  "line": 28,
   "name": "user moves to new candidate page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 35,
+  "line": 29,
   "name": "user enters contact details \"Tom\" and \"Peter\" and \"tp@abc.com\"",
   "matchedColumns": [
     2,
@@ -526,14 +466,14 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 819732900,
+  "duration": 759462100,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.title_of_login_page_is_OrangeHRM()"
 });
 formatter.result({
-  "duration": 4625800,
+  "duration": 2387300,
   "status": "passed"
 });
 formatter.match({
@@ -550,35 +490,35 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 38484800,
+  "duration": 39752000,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 1438986100,
+  "duration": 1534318700,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 3162700,
+  "duration": 4043400,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_moves_to_candidates_page()"
 });
 formatter.result({
-  "duration": 547837700,
+  "duration": 478807200,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_moves_to_new_candidates_page()"
 });
 formatter.result({
-  "duration": 460272900,
+  "duration": 439847700,
   "status": "passed"
 });
 formatter.match({
@@ -599,27 +539,27 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_enters_contacts_details(String,String,String)"
 });
 formatter.result({
-  "duration": 456516700,
+  "duration": 546525900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41500,
+  "duration": 42700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 781517900,
+  "duration": 538066900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4275130000,
+  "duration": 4242876300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 31000,
+  "duration": 23900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 44,
+  "line": 35,
   "name": "This is Second test",
   "description": "",
   "id": "test-tagged-hooks;this-is-second-test;;3",
@@ -627,23 +567,23 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 22,
+      "line": 18,
       "name": "@Second"
     }
   ]
 });
 formatter.step({
-  "line": 25,
+  "line": 21,
   "name": "user is already on Login Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 26,
+  "line": 22,
   "name": "title of login page is OrangeHRM",
   "keyword": "When "
 });
 formatter.step({
-  "line": 27,
+  "line": 23,
   "name": "user enters \"Admin\" and \"admin123\"",
   "matchedColumns": [
     0,
@@ -652,41 +592,27 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 28,
-      "value": "#| username | password   |"
-    },
-    {
-      "line": 29,
-      "value": "#\t| Admin    | admin123   |"
-    },
-    {
-      "line": 30,
-      "value": "#\t| Admin    | admin123   |"
-    }
-  ],
-  "line": 31,
+  "line": 25,
   "name": "user clicks on login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 32,
+  "line": 26,
   "name": "user is on home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 33,
+  "line": 27,
   "name": "user moves to candidates page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 34,
+  "line": 28,
   "name": "user moves to new candidate page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 35,
+  "line": 29,
   "name": "user enters contact details \"David\" and \"Dsouza\" and \"dd@abs.com\"",
   "matchedColumns": [
     2,
@@ -699,14 +625,14 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 770075700,
+  "duration": 775048600,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.title_of_login_page_is_OrangeHRM()"
 });
 formatter.result({
-  "duration": 4048500,
+  "duration": 3708200,
   "status": "passed"
 });
 formatter.match({
@@ -723,35 +649,35 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 34195700,
+  "duration": 33693200,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 1614060200,
+  "duration": 1498388200,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 2074200,
+  "duration": 2107100,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_moves_to_candidates_page()"
 });
 formatter.result({
-  "duration": 485326600,
+  "duration": 524630200,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksStepDefinition.user_moves_to_new_candidates_page()"
 });
 formatter.result({
-  "duration": 378416900,
+  "duration": 312875600,
   "status": "passed"
 });
 formatter.match({
@@ -772,15 +698,15 @@ formatter.match({
   "location": "TaggedHooksStepDefinition.user_enters_contacts_details(String,String,String)"
 });
 formatter.result({
-  "duration": 524843500,
+  "duration": 523404700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 31800,
+  "duration": 31900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 678935900,
+  "duration": 610275100,
   "status": "passed"
 });
 });

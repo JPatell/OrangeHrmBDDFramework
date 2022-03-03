@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="31.335499">
-    <testcase classname="Test Tagged Hooks" name="Orange HRM Login Test Scenario" time="7.541301">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="31.34173">
+    <testcase classname="Test Tagged Hooks" name="Orange HRM Login Test Scenario" time="7.534221">
         <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is OrangeHRM.......................................passed
 Then user enters "Admin" and "admin123".....................................passed
@@ -8,7 +8,7 @@ Then user clicks on login button............................................pass
 Then user is on home page...................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test Tagged Hooks" name="Orange HRM Login Test Scenario 2" time="6.712731">
+    <testcase classname="Test Tagged Hooks" name="Orange HRM Login Test Scenario 2" time="7.200451">
         <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is OrangeHRM.......................................passed
 Then user enters "Admin" and "admin123".....................................passed
@@ -16,7 +16,7 @@ Then user clicks on login button............................................pass
 Then user is on home page...................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test Tagged Hooks" name="This is Second test" time="8.314297">
+    <testcase classname="Test Tagged Hooks" name="This is Second test" time="8.079995">
         <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is OrangeHRM.......................................passed
 Then user enters "Admin" and "admin123".....................................passed
@@ -27,7 +27,7 @@ Then user moves to new candidate page.......................................pass
 Then user enters contact details "Tom" and "Peter" and "tp@abc.com".........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test Tagged Hooks" name="This is Second test 2" time="8.76717">
+    <testcase classname="Test Tagged Hooks" name="This is Second test 2" time="8.527063">
         <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is OrangeHRM.......................................passed
 Then user enters "Admin" and "admin123".....................................passed
